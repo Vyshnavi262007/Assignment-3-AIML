@@ -1,18 +1,33 @@
 # Assignment-3-AIML
-Student Performance Prediction
-(Linear Regression)
+Assignment 3 – AIML
 
-Cell 1 - Libraries
-Cell 2 - Dataset
-Cell 3 - Train/Test split
-Cell 4 - Train model
-Cell 5 - Evaluation
+1. Student Performance Prediction using Linear Regression
 
-Customer Segmentation
-(K-Means)
+This project uses Linear Regression to predict student exam scores based on study hours.
 
-Cell 6 - Libraries
-Cell 7 - Dataset
-Cell 8 - KMeans model
-Cell 9 - Visualization
-Cell 10 - Silhouette score
+Steps performed:
+- Imported required libraries
+- Created dataset
+- Split data into training and testing
+- Trained Linear Regression model
+- Evaluated model using Mean Squared Error and R2 Score
+
+
+2. Customer Segmentation using K-Means Clustering
+
+This project groups customers based on Annual Income and Spending Score.
+
+Steps performed:
+- Imported required libraries
+- Created customer dataset
+- Applied K-Means clustering
+- Visualized clusters
+- Evaluated clustering using Silhouette Score
+
+
+Tools Used:
+- Python
+- Google Colab
+- Scikit-learn
+- Pandas
+- Matplotlib
